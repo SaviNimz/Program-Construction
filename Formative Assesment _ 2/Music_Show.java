@@ -56,7 +56,7 @@ class backupSinger extends singer implements IBackup{
 }
 
 //create the subclass backup dancer which extends from the abstract class artist
-class backupDancer extends artist {
+class backupDancer extends artist implements IBackup{
     public backupDancer(String name) {
         super(name);
     }
