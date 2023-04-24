@@ -10,22 +10,20 @@ public class ABC {
 
         client Savinu = new client(321,"Savinu","Sri Lanka","Engineer","Panadura",21,"Male");
 
-        client Disini = new client(691,"Disini","Sri Lanka","Engineer","Moratuwa",21,"Female");
 
         // then lets create accounts for the first client
         Savinu.getAccount("Savings",1234,"USD","Panadura",100000);
         Savinu.getAccount("Savings",13221,"Rupees","Moratuwa",90000);
 
         Savinu.setPinNumber(991);
-        Disini.setPinNumber(871);
-        clients.add(Disini);
         clients.add(Savinu);
 
         System.out.println("----------------------------------------------------------------------------------------------------");
-        System.out.println("Now a client uses the ATM");
+        System.out.println("Now a client uses the ATM (correct pin for this case is 991 enter it)");
 
         ATM current = new ATM();
         current.runAtm(991,Savinu);
+
     }
 
 }
@@ -150,7 +148,7 @@ class Account{
     //method to deposit money
     public void Deposit(int Amount){
         balance += Amount;
-        System.out.println("Deposit sucesfull");
+        System.out.println("Deposit sucessfull");
     }
     //method to withdraw money
     public void Withdraw(int Amount){
@@ -201,3 +199,4 @@ class Loan{
         this.paymentMethod = paymentMethod;
     }
 }
+
