@@ -43,7 +43,7 @@ class singer extends artist {
     }
 
 }
-
+// creat the subclass backu singer
 class backupSinger extends singer implements IBackup{
     public backupSinger(String name) {
         super(name);
@@ -56,7 +56,7 @@ class backupSinger extends singer implements IBackup{
 }
 
 //create the subclass backup dancer which extends from the abstract class artist
-class backupDancer extends artist {
+class backupDancer extends artist implements IBackup{
     public backupDancer(String name) {
         super(name);
     }
@@ -68,6 +68,7 @@ class backupDancer extends artist {
     }
 }
 
+// create an abstract class for performance and some methods in this will be overwritten later
 abstract class Performance {
 
     String main_artist;
@@ -77,7 +78,7 @@ abstract class Performance {
     private ArrayList<MusicTrack> trackList ;
     ArrayList<backupSinger> backup_singers ;
     ArrayList<backupDancer> backup_dancers;
-
+    // construutor for the performance class
     public Performance(String name , String artist,int year,String venue){
         this.main_artist = artist;
         this.performance_name = name;
