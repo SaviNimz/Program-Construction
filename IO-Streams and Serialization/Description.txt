@@ -1,0 +1,4 @@
+In this lab we use knowledge of OOP , Serializarion and exeption handling
+to simulate a point of sales system
+
+Serialized object will be saved as a SER file and it will be also saved in the same destnation as project files 
