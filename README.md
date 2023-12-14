@@ -12,5 +12,16 @@ This project was done under OOP section and following concepts were used in this
 - Encapsulation
 - Inheritance
 - Polymorphism
+- 
+## Multithreading project
 
-  
+This project was done under the threads and multithreading section. Here we learned about the classical producer consumer problem and how to handle deadlocks and race conditions. The main concepts used were,
+
+- Java Thread library
+- Producer and consumer
+- Function synchronization
+- deadlocks
+- locks and mutexes
+
+
+
