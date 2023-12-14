@@ -1,6 +1,6 @@
 # Java OOP projects
 
-this repository contains two java projects which was done as a part of the program construction (OOP) module in semester 2
+This repository contains java projects which was done as a part of the program construction (OOP) module in semester 2
 
 - this repository has three main projects which covers all of the object oriented programming fundamentals, some multi threading fundamentals,IO streams and serialization and exception handling fundamentals in java
 
