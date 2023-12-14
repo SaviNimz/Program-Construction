@@ -6,7 +6,7 @@ This repository contains java projects which was done as a part of the program c
 
 ## ATM project
 
-This project was done under OOP section and following concepts were used in this project
+This project was done under OOP section which we used our knowledge to create a banking system which obeys OOP principles, following concepts were used in this project
 - Classes
 - Object
 - Encapsulation
@@ -23,5 +23,10 @@ This project was done under the threads and multithreading section. This was a s
 - deadlocks
 - locks and mutexes
 
+## Io streams and Serialiation
 
+In this lab we used the knowledge of OOP , Serializarion and exeption handling to simulate a point of sales system
 
+- creating custom exception classes
+- serilaizing and deserializing objects in java
+  
